@@ -8,6 +8,7 @@
 git commit -v 修改差异的每一行都包含到注释中来
 git commit -a 自动吧所有已经跟着过的文件暂存起来一并提交，从而跳过git add 步骤
 
+git commit --amend 
 
 ## git log
 参数列表
@@ -39,7 +40,7 @@ git commit -a 自动吧所有已经跟着过的文件暂存起来一并提交，
     * %ce 提交者的电子邮件
     * %cd 提交日期
     * %cr 提交日期，安多久以前的方式显示
-    * %s 提交说明 
+    * %s 提交说明
 
 * --since , --after : 仅显示指定时间之后的提交  
   eg: git log --since=2.weaks  列出最近两周内的提交
