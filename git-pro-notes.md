@@ -8,7 +8,7 @@
 git commit -v 修改差异的每一行都包含到注释中来
 git commit -a 自动吧所有已经跟着过的文件暂存起来一并提交，从而跳过git add 步骤
 
-git commit --amend 
+git commit --amend 重新编写提交说明，修正第一个提交的内容
 
 ## git log
 参数列表
@@ -47,3 +47,28 @@ git commit --amend
 * --until  ,--before   : 仅显示指定时间之前的提交  
 * --author  :  仅显示指定作者相关的提交
 * --committer  :  仅显示指定提交者相关的提交
+
+## git reset
+取消暂存
+git reset HEAD <file>  撤销add   <file> 文件的操作
+git reset HEAD ^ 撤销所有add 的操作
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===
+end
