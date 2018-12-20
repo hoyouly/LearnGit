@@ -54,6 +54,14 @@ git reset HEAD <file>  撤销add   <file> 文件的操作
 git reset HEAD ^ 撤销所有add 的操作
 
 
+## git 别名
+git config --global alias.co  checkout   git co  相当于 git checkout
+git config --global alias.br  branch     git br  相当于 git branch
+git config --global alias.ci  commit     git ci  相当于 git commit
+git config --global alias.st  status     git st  相当于 git status
+
+
+
 
 
 
